@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.trypointmaxx/pointmaxx-mcp",
+  "title": "PointMaxx",
+  "description": "Which credit card to use, which cards to get, and card terms. 53 US cards, runs locally.",
+  "websiteUrl": "https://pointmaxx.app",
+  "repository": {
+    "url": "https://github.com/trypointmaxx/pointmaxx-mcp",
+    "source": "github"
+  },
+  "version": "0.1.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "pointmaxx-mcp",
+      "version": "0.1.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "name": "pointmaxx-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "mcpName": "io.github.trypointmaxx/pointmaxx-mcp",
   "description": "PointMaxx for AI assistants: which of your credit cards to use, which cards to get on your spending, and any card's terms. Runs locally; nothing leaves your machine.",
   "type": "module",
   "bin": {

@@ -15,7 +15,7 @@ require(path.join(LIB, 'engine.cjs'));
 const E = globalThis.Engine;
 await import(pathToFileURL(path.join(LIB, 'pick.cjs')).href);
 const STORES = require(path.join(LIB, 'stores.json'));
-const VERSION = '0.1.1', VERSIONS = ['2025-06-18', '2025-03-26', '2024-11-05'];
+const VERSION = '0.1.2', VERSIONS = ['2025-06-18', '2025-03-26', '2024-11-05'];
 const NOTE = 'Estimates from each card\'s published terms, not financial advice. Check the issuer before applying.';
 const CATS = Object.keys(E.CAT_LABEL);
 

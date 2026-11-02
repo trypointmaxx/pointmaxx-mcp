@@ -1,0 +1,35 @@
+{
+  "name": "pointmaxx-mcp",
+  "version": "0.1.1",
+  "description": "PointMaxx for AI assistants: which of your credit cards to use, which cards to get on your spending, and any card's terms. Runs locally; nothing leaves your machine.",
+  "type": "module",
+  "bin": {
+    "pointmaxx-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "credit-cards",
+    "rewards",
+    "cash-back",
+    "points"
+  ],
+  "homepage": "https://pointmaxx.app",
+  "license": "MIT",
+  "scripts": {
+    "test": "node server.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trypointmaxx/pointmaxx-mcp"
+  }
+}

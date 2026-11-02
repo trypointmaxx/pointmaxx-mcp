@@ -1,0 +1,8 @@
+# How Smithery starts the server: a local stdio process, no configuration needed.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    () => ({ command: 'node', args: ['server.mjs'] })
